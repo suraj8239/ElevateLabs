@@ -34,6 +34,7 @@
     </header>
 
     <!-- HERO SECTION -->
+    <!-- HERO SECTION - UPDATED WITH PREMIUM CODE WINDOW -->
     <section class="hero">
         <div class="hero-container">
             <div class="hero-content">
@@ -59,19 +60,45 @@
                 </div>
             </div>
             
-            <!-- Hero Visual -->
+            <!-- NEW PREMIUM HERO VISUAL -->
             <div class="hero-visual">
                 <div class="code-window">
                     <div class="code-header">
                         <div class="dots">
-                            <span></span><span></span><span></span>
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
                         </div>
-                        <span>index.html</span>
+                        <div class="file-info">
+                            <span class="file-icon">📄</span>
+                            <span class="file-name">landing-page.html</span>
+                        </div>
+                        <div class="live-badge">
+                            <span class="dot"></span>
+                            LIVE PREVIEW
+                        </div>
                     </div>
                     <div class="code-body">
-                        &lt;header&gt; &lt;nav&gt; ...<br>
-                        &lt;section class="hero"&gt;<br>
-                        &nbsp;&nbsp;Responsive Landing Page
+                        <pre><code>&lt;!-- Elevate Labs Landing Page --&gt;
+<span class="tag">&lt;header&gt;</span>
+  &lt;nav class="navbar"&gt;
+    &lt;logo&gt;ElevateLabs&lt;/logo&gt;
+    <span class="comment">&lt;!-- Responsive Nav --&gt;</span>
+  &lt;/nav&gt;
+<span class="tag">&lt;/header&gt;</span>
+
+<span class="tag">&lt;section class="hero"&gt;</span>
+  &lt;h1&gt;Build Your Future with 
+     <span class="highlight">Elevate Labs</span>&lt;/h1&gt;
+  &lt;p&gt;Master HTML • CSS • Responsive Design&lt;/p&gt;
+  &lt;button class="btn"&gt;Apply Now 🚀&lt;/button&gt;
+<span class="tag">&lt;/section&gt;</span>
+
+<span class="comment">&lt;!-- Media Queries for Mobile --&gt;</span>
+@media (max-width: 768px) {
+  .nav-links { flex-direction: column; }
+}
+                        </code></pre>
                     </div>
                 </div>
             </div>
